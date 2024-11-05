@@ -6,7 +6,7 @@
 - [x] build basic ui with mock data
 - [x] set up database (vercel postgres)
 - [x] attach database to ui
-- [ ] add authentication (with clerk)
+- [X] add authentication (with clerk)
 - [ ] add image upload
 - [ ] error management (with sentry )  
 - [ ] routing and image page (parallel route)
