@@ -20,7 +20,7 @@ export default function HomePage() {
           </div>
         ))}
       </div>
-      Hello - gallery in  
+      Hello - gallery in progress test 1
     </main>
   );
 }
