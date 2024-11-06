@@ -18,14 +18,20 @@ const inter = Inter({
 
 export default function RootLayout({
   children,
-}: Readonly<{ children: React.ReactNode }>) {
+  modal
+}: {
+  children: React.ReactNode;
+  modal: React.ReactNode;
+}) {
   return (
     <ClerkProvider>
       <html lang="en">
         <body className={`font-sans ${inter.variable} dark`}>
           <Topnav />
           {children}
-          </body>
+          {modal}
+          <div id="modal-root" />
+        </body>
       </html>
     </ClerkProvider>
   );
