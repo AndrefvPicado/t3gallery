@@ -10,7 +10,7 @@
 - [X] add image upload
 - [x] taint - server only 
 - [x] use next image component
-- [ ] error management (with sentry )  
+- [X] error management (with sentry )  
 - [ ] routing and image page (parallel route)
 - [ ] delete button (with server actions)
 - [ ] analytics (posthog)
