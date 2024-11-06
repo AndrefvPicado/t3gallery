@@ -8,8 +8,8 @@
 - [x] attach database to ui
 - [X] add authentication (with clerk)
 - [X] add image upload
-- [ ] taint - server only 
-- [ ] use next image component
+- [x] taint - server only 
+- [x] use next image component
 - [ ] error management (with sentry )  
 - [ ] routing and image page (parallel route)
 - [ ] delete button (with server actions)
