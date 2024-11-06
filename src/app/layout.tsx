@@ -27,8 +27,10 @@ export default function RootLayout({
     <ClerkProvider>
       <html lang="en">
         <body className={`font-sans ${inter.variable} dark`}>
+          <div className="grid h-screen grid-rows-[auto,1fr]">
           <Topnav />
-          {children}
+          <main className="overflow-y-scroll">{children}</main>
+          </div>
           {modal}
           <div id="modal-root" />
         </body>

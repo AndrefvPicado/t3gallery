@@ -11,6 +11,6 @@
 - [x] taint - server only 
 - [x] use next image component
 - [X] error management (with sentry )  
-- [ ] routing and image page (parallel route)
+- [x] routing and image page (parallel route)
 - [ ] delete button (with server actions)
 - [ ] analytics (posthog)
