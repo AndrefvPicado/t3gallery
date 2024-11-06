@@ -1,7 +1,8 @@
 import "~/styles/globals.css";
+import "@uploadthing/react/styles.css";
 import { ClerkProvider } from '@clerk/nextjs'
 import { Topnav } from "./_components/topnav";
-import { GeistSans } from "geist/font/sans";
+import { Inter } from "next/font/google";
 import { type Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -10,13 +11,18 @@ export const metadata: Metadata = {
   icons: [{ rel: "icon", url: "/favicon.ico" }],
 };
 
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-sans",
+});
+
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <ClerkProvider>
-      <html lang="en" className={`${GeistSans.variable}`}>
-        <body className="flex-col gap-4">
+      <html lang="en">
+        <body className={`font-sans ${inter.variable} dark`}>
           <Topnav />
           {children}
           </body>
