@@ -57,7 +57,7 @@ importers:
         specifier: ^3.4.3
         version: 3.4.5
       posthog-js:
-        specifier: ^1.116.6
+        specifier: ^1.181.0
         version: 1.181.0
       posthog-node:
         specifier: ^4.0.0

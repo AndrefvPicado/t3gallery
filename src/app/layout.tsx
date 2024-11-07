@@ -5,6 +5,7 @@ import { Topnav } from "./_components/topnav";
 import { Inter } from "next/font/google";
 import { type Metadata } from "next";
 import { Toaster } from "sonner";
+import { CSPostHogProvider } from "./_analytics/provider";
 
 export const metadata: Metadata = {
   title: "T3 Gallery",
@@ -26,6 +27,7 @@ export default function RootLayout({
 }) {
   return (
     <ClerkProvider>
+      <CSPostHogProvider>
       <html lang="en">
         <body className={`font-sans ${inter.variable} dark`}>
           <div className="grid h-screen grid-rows-[auto,1fr]">
@@ -37,6 +39,7 @@ export default function RootLayout({
           <Toaster />
         </body>
       </html>
+      </CSPostHogProvider>
     </ClerkProvider>
   );
 }

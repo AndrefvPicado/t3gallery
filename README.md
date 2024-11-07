@@ -12,5 +12,5 @@
 - [x] use next image component
 - [X] error management (with sentry )  
 - [x] routing and image page (parallel route)
-- [ ] delete button (with server actions)
 - [ ] analytics (posthog)
+- [ ] delete button (with server actions)
