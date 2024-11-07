@@ -45,7 +45,7 @@ export function UploadButton(){
       },
       onClientUploadComplete: () => {
         toast.dismiss("uploading");
-        toast("Upload complete");
+        toast("Upload complete"); 
         router.refresh();
       } 
     });
