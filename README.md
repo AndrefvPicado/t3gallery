@@ -1,4 +1,5 @@
 # T3 gallery
+# A photo uploading app following Theo's tutorial
 
 ## TODO
 
@@ -12,5 +13,4 @@
 - [x] use next image component
 - [X] error management (with sentry )  
 - [x] routing and image page (parallel route)
-- [ ] analytics (posthog)
-- [ ] delete button (with server actions)
+- [x] analytics (posthog)
